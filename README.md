@@ -1,6 +1,7 @@
 # lab_salt_config
 configuration files for the master servers
 
+```
 Salt Version:
            Salt: 2017.7.1
  
@@ -41,6 +42,7 @@ System Versions:
         release: 3.10.0-514.26.2.el7.x86_64
          system: Linux
         version: CentOS Linux 7.3.1611 Core
+```
 
 ## GITFS
 Installing python-pygit2 and libgit2 doesnt cut it. Even if the packages are the newest version. Had to install additionally
