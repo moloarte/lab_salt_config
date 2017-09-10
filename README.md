@@ -48,15 +48,3 @@ System Versions:
 Installing python-pygit2 and libgit2 doesnt cut it. Even if the packages are the newest version. Had to install additionally
 GitPython.
 
-## Reclass configuration file
-
-Using this configuration for /etc/reclass/reclass-config.yml
-
-```
-storage_type: yaml_fs
-pretty_print: True
-output: yaml
-inventory_base_uri: /srv/salt/reclass
-nodes_uri: ../nodes
-classes_uri: ../classes
-```
