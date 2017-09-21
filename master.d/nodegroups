@@ -2,3 +2,4 @@ nodegroups:
   stgdb: 'G@environment:staging and G@server_type:db'
   dc1devapp: 'G@location:dc1 and G@environment:development and G@server_type:app'
   prodmon: 'L@prddc1mon01,prddc2mon03,prddc3mon10'
+  ipa: ipa.oslo.ch
